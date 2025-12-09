@@ -1,0 +1,121 @@
+<!doctype html>
+<html data-page="nav-home" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>League of Legends — Game Summary</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="site">
+    <header class="header" role="banner">
+      <div class="container navbar">
+        <div class="brand">
+          <div class="brand__logo"></div>
+          <span>League of Legends Guide</span>
+        </div>
+
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-btn">Menu</label>
+
+        <nav id="site-nav" role="navigation" aria-label="Primary">
+          <ul>
+            <li><a href="index.html" id="nav-home" aria-current="page">Game Summary</a></li>
+            <li><a href="roles.html" id="nav-roles">Roles</a></li>
+            <li><a href="ranked.html" id="nav-ranked">Ranked &amp; Esports</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="main" role="main">
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero__title">Welcome to League of Legends</h1>
+          <p class="hero__subtitle">
+            A fast-paced 5v5 strategy game where two teams battle to destroy the enemy Nexus.
+          </p>
+        </div>
+      </section>
+
+      <div class="container grid">
+       
+        <section class="section-box">
+          <h2>Objective &amp; Map Basics</h2>
+          <p>
+            League of Legends is played on a map called <strong>Summoner’s Rift</strong>. Two teams of five
+            players start on opposite sides of the map and fight to destroy the enemy <strong>Nexus</strong>,
+            the crystal structure at the center of each base. To get there, teams push through three
+            <strong>lanes</strong>—top, middle, and bottom—while destroying enemy turrets and inhibitors and
+            defending their own.
+          </p>
+          <p>
+            Between the lanes lies the <strong>jungle</strong>, an area full of neutral monsters that give
+            gold, experience, and powerful buffs when defeated. Controlling lanes, vision, and jungle
+            objectives is what separates coordinated teams from disorganized ones.
+          </p>
+
+          <div class="placeholder">
+            <figure>
+              <img src="images/summoners-rift-map.jpg"
+                   alt="Top-down view of Summoner's Rift showing all three lanes and the jungle" />
+              <figcaption>Summoner’s Rift: three lanes, two bases, and a jungle full of objectives.</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        
+        <aside class="aside-box" aria-label="Quick facts about League of Legends">
+          <h3>Quick Facts</h3>
+          <ul>
+            <li>5v5 multiplayer online battle arena (MOBA).</li>
+            <li>Main map: Summoner’s Rift with 3 lanes and a jungle.</li>
+            <li>Over 160 unique champions with different playstyles.</li>
+            <li>Primary goal: destroy the enemy Nexus before they destroy yours.</li>
+          </ul>
+        </aside>
+
+      
+        <section class="section-box">
+          <h2>Champion Basics</h2>
+          <p>
+            Each player controls a single <strong>champion</strong> with a distinct kit of abilities. Champions
+            gain <strong>experience</strong> to level up and unlock stronger spells, and earn <strong>gold</strong>
+            by killing minions, monsters, and enemy champions. That gold is spent on items that increase damage,
+            durability, or utility.
+          </p>
+          <p>
+            Over the course of a match, champions scale from weak early game characters into powerful late game
+            threats. Teamwork, positioning, and objective control determine whether your team converts that power
+            into a win.
+          </p>
+
+          <div class="placeholder">
+            <figure>
+              <img src="images/champions-lineup.jpg"
+                   alt="Collage of various League of Legends champions" />
+              <figcaption>A small sample of the many champions you can learn and master.</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <aside class="aside-box" aria-label="Tips for new players">
+          <h3>New Player Tips</h3>
+          <ol>
+            <li><strong>Last-hit minions:</strong> only the final hit gives you gold.</li>
+            <li><strong>Watch the minimap:</strong> check it often to avoid surprise ganks.</li>
+            <li><strong>Start with simple champions:</strong> focus on learning one role at a time.</li>
+            <li><strong>Play for objectives:</strong> dragons, turrets, and Baron win more games than kills.</li>
+          </ol>
+        </aside>
+      </div>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+      <div class="container">
+        <p><strong>Note:</strong> This is a wireframe skeleton.</p>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
